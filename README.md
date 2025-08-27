@@ -1,27 +1,27 @@
-## 📚 GetMeABook – Book Donation Platform (Frontend)
+# 📚 Get Me A Book
 
-GetMeABook is a book donation platform built with React.js, designed to connect people who want to donate books or request funds to purchase them. This repository contains the frontend of the platform, focusing on a responsive, user-friendly, and accessible interface.
+A full-stack crowdfunding platform where users can either *donate* books/funds or *receive* support to get books.  
+Built with React.js *Next.js, MongoDB, Razorpay, and TailwindCSS*.
 
-### **🚀 Features**
+---
 
-📖 Book Donations & Requests – Users can donate or request funds for books.
+## 🚀 Features
+- 🔹 User authentication with *Google Login*  
+- 🔹 Separate dashboards for *Donaters* and *Receivers*  
+- 🔹 *Razorpay integration* for secure donations  
+- 🔹 Profile page with *donations received & made*  
+- 🔹 *Leaderboard* showcasing top donaters  
+- 🔹 Fully responsive UI with modern design  
 
-🧩 Reusable Components – Includes Dashboard, Feed, Donation Form, and User Profile.
+---
 
-👥 Role-based Navigation – Seamless experience for donors and receivers.
+## 🛠 Tech Stack
+- *Frontend*: React.js, TailwindCSS  
+- *Backend*: Next.js API Routes, MongoDB  
+- *Authentication*: NextAuth (Google OAuth)  
+- *Payment Gateway*: Razorpay
+  
+---
 
-📱 Responsive Design – Works smoothly across desktops, tablets, and mobile devices.
-
-♿ Accessibility First – Built with accessibility considerations for a wider audience.
-
-☁️ Deployment – Hosted on Vercel for a live, production-ready experience.
-
-### **🛠️ Tech Stack**
-
-React.js (Frontend Library)
-
-React Router (Navigation)
-
-Tailwind CSS / CSS Modules (Styling – update based on what you used)
-
-Vercel (Deployment Platform)
+## 🌐 Live Demo
+https://getmeabook.vercel.app/
